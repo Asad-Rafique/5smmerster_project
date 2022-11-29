@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moter_bike_sots</title>
+    <link rel="stylesheet" href="stayl.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="aboutuspage.css">
+    <link rel="stylesheet" href="smallbanner.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="slider_banner.css">
+</head>
+<body>
+  <div>
+     <div class="Container">
+        <img src="image/Untitled-jj.jpg" alt="logo">
+        <ul>
+          <li><a href="#HomePage">Home</a></li>
+          <li><a href="#AboutUs">About Us</a></li>
+          <li><a href="#ContactUs">Contact Us</a></li>
+        </ul>
+    </div>
+      <!-- <div class="imge"><img src="image/moterbikeee-su.png" height="100%" width="100%" alt="loding"></div>
+      <div class="imge"><img src="image/slider_banner2.jpg" height="100%" width="100%" alt="loding"></div>
+      <div class="imge"><img src="image/sider_banner3.jpg" height="100%" width="100%" alt="loding"></div>
+      <div class="imge"><img src="image/slider_banner4.jpg" height="100%" width="100%" alt="loding"></div> -->
+      <body>
+
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="image/slider_banner2.jpg" style="width:100% " height="500px">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="image/slider_banner1.png" style="width:100%"  height="500px">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="image/slider_banner4.jpg" style="width:100%"  height="500px">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        
+        </body>
+      <div class="homepage">
+        <p>
+        <img src="image/man-motorbike.jpg" alt="loding" height="100%" width="50%">
+        <h1 style="text-align: center;"><a name="HomePage"> Home page</a></h1>
+        <h3>Lorem ipsum dolor tempora quaerat ipsum, hic eligendi fugiat soluta ipsa fugit officiis doloribus commodi modi eius quam, ex ducimus voluptatem non reiciendis asperiores excepturi inventore esse. Omnis praesentium amet deserunt consequatur at corrupti obcaecati assumenda reiciendis tempora perferendis facere culpa nulla doloribus enim deleniti quas necessitatibus, quia nisi voluptatem minima temporibus! Architecto voluptates iste quos voluptate neque, velit quam quod adipisci soluta ipsum odio cupiditate fugit quaerat tenetur doloremque? Omnis cum atque aliquam architecto iure impedit commodi accusamus, harum dicta beatae itaque praesentium sapiente at quia quos, doloribus distinctio veritatis illo, maxime quibusdam. Repellat nobis eos reprehenderit, officiis tenetur architecto nemo quo sunt fugiat omnis necessitatibus alias! Maiores reiciendis ducimus reprehenderit optio illo amet ab exercitationem? Odit, ipsam hic. Quis, doloremque. Quas dolores similique fuga sint, dolore consequatur laudantium! Vero obcaecati maiores aperiam ea sequi perferendis ipsum distinctio eveniet.
+        </h3>
+      </p>
+      </div>
+      <br><br><br><br><br><br>
+         <div class="aboutuspage">
+          <p>
+            <img src="image/boxing-gear.png" alt="loding" height="100%" width="50%">
+            <h1 style="text-align: center"><a name="AboutUs">Abute Us</a></h1>
+            <h3>Lorem ipsum dolor sit quae unde tempora quaerat ipsum, hic eligendi fugiat soluta ipsa fugit officiis doloribus commodi modi eius quam, ex ducimus voluptatem non reiciendis asperiores excepturi inventore esse. Omnis praesentium amet deserunt consequatur at corrupti obcaecati assumenda reiciendis tempora perferendis facere culpa nulla doloribus enim deleniti quas necessitatibus, quia nisi voluptatem minima temporibus! Architecto voluptates iste quos voluptate neque, velit quam quod adipisci soluta ipsum odio cupiditate fugit quaerat tenetur doloremque? Omnis cum atque aliquam architecto iure impedit commodi accusamus, harum dicta beatae itaque praesentium sapiente at quia quos, doloribus distinctio veritatis illo, maxime quibusdam. Repellat nobis eos reprehenderit, officiis tenetur architecto nemo quo sunt fugiat omnis necessitatibus alias! Maiores reiciendis ducimus reprehenderit optio illo amet ab exercitationem? Odit, ipsam hic. Quis, doloremque. Quas dolores similique fuga sint, dolore consequatur laudantium! Vero obcaecati maiores aperiam ea sequi perferendis ipsum distinctio eveniet.
+            </h3>
+          </p>
+         </div>
+         <br><br><br><br><br><br>
+         <div class="homepage">
+          <p>
+          <img src="image/sports-wear.jpg" alt="loding" height="100%" width="50%">
+                <h1 style="text-align: center"><a name="ContactUs">Contact Us</a></h1>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus sit quae unde tempora quaerat ipsum, hic eligendi fugiat soluta ipsa fugit officiis doloribus commodi modi eius quam, ex ducimus voluptatem non reiciendis asperiores excepturi inventore esse. Omnis praesentium amet deserunt consequatur at corrupti obcaecati assumenda reiciendis tempora perferendis facere culpa nulla doloribus enim deleniti quas necessitatibus, quia nisi voluptatem minima temporibus! Architecto voluptates iste quos voluptate neque, velit quam quod adipisci soluta ipsum odio cupiditate fugit quaerat tenetur doloremque? Omnis cum atque aliquam architecto iure impedit commodi accusamus, harum dicta beatae itaque praesentium sapiente at quia quos, doloribus distinctio veritatis illo, maxime quibusdam. Repellat nobis eos reprehenderit, officiis tenetur architecto nemo quo sunt fugiat omnis necessitatibus alias! Maiores reiciendis ducimus reprehenderit optio illo amet ab exercitationem? Odit, ipsam hic. Quis, doloremque. Quas dolores similique fuga sint, dolore consequatur laudantium! Vero obcaecati maiores aperiam ea sequi perferendis ipsum distinctio eveniet.
+          </h3>
+        </p>
+        </div>
+        <div class="table">
+          <table cellspacing="15" cellspacing="0" >
+            <tr>
+                <td><a href="#HomePage">Fierst</a> </td>
+                <td><a href="#AboutUs">Second</a> </td>
+                <td><a href="#ContactUs">Therd</a> </td>
+            </tr>
+          </table>
+        </div>
+        <div><br><br><br><br><br><br><br><br><br><br><br></div>
+          
+         <div class="gallerys">
+          <div class="gallery">
+            <a target="_blank" href="https://www.btosports.com/dirt-bike-gear/jackets?utm_source=google&utm_medium=cpc&utm_campaign=18093899420&utm_content=&utm_term=&matchtype=&adposition=&device=c&adtype=&product_id=&product_country=&gclid=EAIaIQobChMImrWgxJng-gIVAvhRCh1OlgHpEAAYAiAAEgKF2fD_BwE">
+              <img src="image/small_banner1.jpg" alt="banners"  width="300" height="300">
+            </a>
+            <div class="asad">Add a description of the image here</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.btosports.com/dirt-bike-gear/jackets?utm_source=google&utm_medium=cpc&utm_campaign=18093899420&utm_content=&utm_term=&matchtype=&adposition=&device=c&adtype=&product_id=&product_country=&gclid=EAIaIQobChMImrWgxJng-gIVAvhRCh1OlgHpEAAYAiAAEgKF2fD_BwE">
+              <img src="image/small_banner2.jpg" alt="banners"  width="300" height="300">
+            </a>
+            <div class="asad">Add a description of the image here</div>
+            
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.btosports.com/dirt-bike-gear/jackets?utm_source=google&utm_medium=cpc&utm_campaign=18093899420&utm_content=&utm_term=&matchtype=&adposition=&device=c&adtype=&product_id=&product_country=&gclid=EAIaIQobChMImrWgxJng-gIVAvhRCh1OlgHpEAAYAiAAEgKF2fD_BwE">
+              <img src="image/small_banner3.jpg" alt="banners"  width="300" height="300">
+            </a>
+            <div class="asad">Add a description of the image here</div>
+            
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="https://www.btosports.com/dirt-bike-gear/jackets?utm_source=google&utm_medium=cpc&utm_campaign=18093899420&utm_content=&utm_term=&matchtype=&adposition=&device=c&adtype=&product_id=&product_country=&gclid=EAIaIQobChMImrWgxJng-gIVAvhRCh1OlgHpEAAYAiAAEgKF2fD_BwE">
+              <img src="image/small_banner4.jpg" alt="banners"  width="300" height="300">
+            </a>
+            <div class="asad">Add a description of the image here</div>
+            
+          </div> 
+         </div>
+         <!-- <div><br><br><br><br><br><br><br><br><br><br><br></div>
+         <div><br><br><br><br><br><br><br><br><br><br><br></div>
+          <div><br><br><br><br><br><br><br><br><br><br><br></div> -->
+         <!-- <div><br><br><br><br><br><br><br><br><br><br><br></div> --> 
+
+        <div class="footer">
+          
+             <footer>
+              <div><img src="image/Untitled-jj.jpg" alt=""></div>
+              <div style="width: 800px; text-align:center; margin-left: 250px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque cumque, error, delectus deleniti neque tenetur voluptas nulla optio, iste quas voluptatibus culpa maiores sequi pariatur ullam dolorum inventore possimus voluptatum!</div>
+              <div class="hading1"> 
+                <div style="font-size:-large ;">LIVE VISITOR</div>
+             <div>Home  </div>
+             <div>About Us</div>
+             <div>prodect us</div>
+             <div>content us</div>
+            </div>
+            <div class="hading2"> 
+              <div style="font-size:-large ;">INFORMATION  </div>
+           <div>Home  </div>
+           <div>About Us</div>
+           <div>prodect us</div>
+           <div>content us</div>
+          </div>
+          <div class="hading3"> 
+            <div style="font-size:-large ;">TOP CATGORIES </div>
+         <div>Home  </div>
+         <div>About Us</div>
+         <div>prodect us</div>
+         <div>content us</div>
+        </div>
+        <div class="hading4"> 
+          <div style="font-size:-large ;">FOLLOW US </div>
+       <div>Home  </div>
+       <div>About Us</div>
+       <div>prodect us</div>
+       <div>content us</div>
+      </div>
+      <div class="hading5"> 
+        <div style="font-size:-large ;">CONTACT DETAILS </div>
+     <div>Home  </div>
+     <div>About Us</div>
+     <div>prodect us</div>
+     <div>content us</div>
+    </div>
+             
+             </footer>
+            
+         
+            </div>
+  </div>    
+</body>
+
+</html>
